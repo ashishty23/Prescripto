@@ -34,7 +34,7 @@ const Navbar = () => {
                 <li className='py-1'>CONTACT</li>
                 <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden'/>
             </NavLink>
-            <button className='border px-4 py-1 rounded-full border-gray-300 text-gray-800 text-sm' onClick={() => window.open("http://localhost:5174", "_blank")}>
+            <button className='border px-4 py-1 rounded-full border-gray-300 text-gray-800 text-sm' onClick={() => window.open("https://prescripto-admin-silk.vercel.app/", "_blank")}>
                 Admin Panel
             </button>
         </ul>
